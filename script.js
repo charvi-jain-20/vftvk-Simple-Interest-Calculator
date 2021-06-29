@@ -1,7 +1,7 @@
 function compute()      //function to calculate simple interest
 {
-    var principal = document.getElementById("principal").value;
-    if(principal.value <= 0)      //validation for principal value
+    var principa = document.getElementById("principal").value;
+    if(principal.value <= "0")      //validation for principal value
       {
             alert("Enter a positive number");   //alert box generation
             principal.focus();          //taking the user back to the input box
@@ -18,4 +18,3 @@ function updateRate() //function to update rate value
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
-
